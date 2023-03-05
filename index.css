@@ -1,0 +1,90 @@
+a:hover {
+  color: white;
+  text-shadow: 1px 1px 2px purple, 0 0 1em yellow, 0 0 0.2em red;
+}
+
+#greetings h2, #greetings h1, #greetings p {
+  margin: 0;
+}
+#greetings img {
+  width: 130px;
+  float: right;
+  margin-left: 40px;
+  border-radius: 30px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+#sun {
+  transform-origin: center center;
+}
+
+.rotate {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background-color: #000;
+}
+.rotate-icon {
+  left: 19%;
+  top: 50%;
+  width: 127px;
+  height: 135px;
+  position: absolute;
+  margin: -67.5px 0 0 -63.5px;
+  stroke: #fff;
+}
+.rotate-icon g {
+  transition: transform 0.3s;
+  transform-origin: center center;
+}
+.rotate-icon:hover g {
+  transform: rotate(-90deg);
+}
+
+#allParties {
+  display: flex;
+}
+#allParties #leftSide {
+  width: 64%;
+}
+#allParties #rightSide {
+  border-left: 2px solid red;
+  margin-left: 30px;
+  padding: 30px;
+  width: 36%;
+}
+
+#contacts {
+  display: flex;
+  flex-direction: column;
+}
+#contacts h2 {
+  margin-top: 30px;
+}
+#contacts a {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+#workExperience div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#layout div {
+  display: flex;
+  justify-content: space-around;
+}
+#layout div p {
+  margin: 0;
+}
+
+#education div {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=index.css.map */

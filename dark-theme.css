@@ -1,0 +1,31 @@
+body {
+    border: 5px solid #4800ff;
+    color: white;
+    background: black;
+}
+
+.btn-toggle {
+    position: fixed;
+    margin-left: -30vw;
+    background: black;
+    background-image: url("./photo/sun.svg");
+    padding: 0;
+    border: 0;
+    width: 50px;
+    height: 50px;
+}
+
+a,
+i {
+    color: rgb(143 95 255);
+}
+
+.btn-toggleTest {
+    position: fixed;
+    margin-left: -20vw;
+    background-image: url("./photo/sunTest.svg");
+    padding: 0;
+    border: 0;
+    width: 50px;
+    height: 50px;
+}
